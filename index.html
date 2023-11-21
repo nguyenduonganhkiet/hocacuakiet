@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hồ Cá CSS3</title>
+	<meta charset="utf-8">
+	<style>
+#shark
+{
+	left:100px; top:400px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: Shark;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes Shark
+{
+	0%   {left:100px; top:400px;}
+	1%   {left:100px; top:400px;}
+	20%  {left:700px; top:400px;}
+	40%  {left:700px; -webkit-transform:scaleX(-1);}
+	60%  {left:700px; top:100px; -webkit-transform:scaleX(-1);}
+	90%  {left:500px; top:100px; -webkit-transform:scaleX(-1);}
+	100% {left:500px; top:400px; -webkit-transform:scaleX(-1);}
+}
+body
+{
+	background-image: url(./background/backgroung.jpg);
+	background-repeat: no-repeat;
+	background: size 100%;
+	backface-visibility: hidden;
+	background-blend-mode: overlay;
+}
+#hammershark
+{
+	right:0px; top:0px;
+	width: 200px; height: 147px;
+	position: absolute;
+	-webkit-animation-name: hammershark;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes hammershark
+{
+	0%   {right:0px; top:0px;}
+	1%   {right:0px; top:0px;}
+	20%  {right:300px; top:0px;}
+	40%  {right:300px; -webkit-transform:scaleX(-1);}
+	60%  {right:500px; top:200px; -webkit-transform:scaleX(-1);}
+	90%  {right:700px; top:300px; -webkit-transform:scaleX(-1);}
+	100% {right:800px; top:400px; -webkit-transform:scaleX(-1);}
+}
+#cavoi
+{
+	right:400px; top:0px;
+	width: 400px; height: 200px;
+	position: absolute;
+	-webkit-animation-name: cavoi;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes cavoi
+{
+	0%   {right:400px; top:0px;}
+	1%   {right:300px; top:200px;}
+	20%  {right:500px; top:400px;}
+	40%  {right:700px; -webkit-transform:scaleX(-1);}
+	60%  {right:700px; top:600px; -webkit-transform:scaleX(-1);}
+	90%  {right:300px; top:300px; -webkit-transform:scaleX(-1);}
+	100% {right:400px; top:300px; -webkit-transform:scaleX(-1);}
+}
+#bachtuoc
+{
+	right:400px; top:0px;
+	width: 400px; height: 200px;
+	position: absolute;
+	-webkit-animation-name: bachtuoc;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes bachtuoc
+{
+	0%   {right:400px; top:300px;}
+	1%   {right:300px; top:300px;}
+	20%  {right:500px; top:600px;}
+	40%  {right:700px; -webkit-transform:scaleX(-1);}
+	60%  {right:700px; top:400px; -webkit-transform:scaleX(-1);}
+	90%  {right:300px; top:200px; -webkit-transform:scaleX(-1);}
+	100% {right:400px; top:0px; -webkit-transform:scaleX(-1);}
+}
+#bongbong
+{
+	left:400px; top:0px;
+	width: 20px; height: 20px;
+	position: absolute;
+	-webkit-animation-name: bongbong;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes bongbong
+{
+	0%   {left:0px; top:800px;}
+	1%   {left:100px;top:700px;}
+	20%  {left:200px;top:600px;}
+	40%  {left:100px;top:500px;}
+	60%  {left:200px;top:400px;}
+	90%  {left:300px;top:200px;}
+	100% {left:100px;top:0px;}
+}
+#bongbong2
+{
+	right:400px; top:0px;
+	width: 20px; height: 20px;
+	position: absolute;
+	-webkit-animation-name: bongbong2;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(1)
+}
+@-webkit-keyframes bongbong2
+{
+	0%   {right:0px; top:800px;}
+	1%   {right:100px;top:700px;}
+	20%  {right:200px;top:600px;}
+	40%  {right:100px;top:500px;}
+	60%  {right:200px;top:400px;}
+	90%  {right:300px;top:200px;}
+	100% {right:100px;top:100px;}
+}
+#container
+{
+    position: relative;
+}
+
+
+</style>
+</head>
+<body>
+	<div id="container" style="width:100%; height: 100vh; background-image: url('./background/backgroung.jpg');background-size:cover ;background-repeat: no-repeat;background-position:center;">
+		<audio controls>
+			<source src="./music/baihat1.mp3" type="audio/mp3">	
+			<source src="./music/baihat2.mp3" type="audio/mp3">
+			<source src="./music/baihat3.mp3" type="audio/mp3">
+		</audio>
+<div id="background"></div>
+
+    <div id="shark"><img src="./style/camapcute.png"; width="298" height="149"></div>
+	<div id="hammershark"><img src="./style/camapdaubuacute.png"; width="298" height="149"></div>
+    <div id="cavoi">,<img src="./style/cavoicute.png"; width="300" height="200"></div>
+    <div id="bongbong"><img src="./style/bongbong.png"; width="150" height="150"></div>
+    <div id="bongbong2"><img src="./style/bongbong.png"; width="150" height="150"></div>
+     <div id="bachtuoc"><img src="./style/bachtuoccute.png";width="200" height="150"></div>
+	
+	 <select id="musicSelect" onchange="myFunction2()" style="position: absolute;top: 0;left: 120px;">
+		<option value="./music/baihat1.mp3">1</option>
+		<option value="./music/baihat2.mp3">2</option>
+		<option value="./music/baihat3.mp3">3</option>
+	</select>
+	
+	<select id="bgSelect" onchange="myFunction()" style="position:absolute; top: 0;left: 88px;">
+		<option value="./background/backgroung.jpg">1</option>
+		<option value="./background/background2.jpg">2</option>
+		<option value="./background/background3.jpg">3</option>
+	</select>
+
+	<script>
+		/*Background*/
+		function myFunction() 
+		{
+		var e = document.getElementById("bgSelect");
+		var strUser = e.options[e.selectedIndex].value;
+		document.getElementById("container").style.backgroundImage = "url('" + strUser + "')";
+		}
+		/*Music*/
+		function myFunction2()
+	    {
+			var x = document.getElementById("musicSelect");
+			var y = x.options[x.selectedIndex].value;
+			var audioElement = document.getElementsByTagName("audio")[0]; // get the audio element
+			audioElement.src = y;
+			audioElement.load();
+		}
+	</script>
+
+
+
+
+</body>
+</html>
